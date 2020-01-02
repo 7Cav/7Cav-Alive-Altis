@@ -1,7 +1,7 @@
 params [["_object", objNull, [objNull]]];
 [_object, "none", true, true, true, true, false] call cScripts_fnc_doStarterCrate;
 [_object, true] call ace_arsenal_fnc_initBox;
-[_object [ > [_object, [
+[_object, [
 	"launch_I_Titan_F",
 	"launch_O_Titan_ghex_F",
 	"launch_O_Titan_F",
@@ -113,5 +113,6 @@ params [["_object", objNull, [objNull]]];
 	"I_E_AA_01_weapon_F",
 	"RHS_SPG9_Tripod_Bag",
 	"RHS_SPG9_Gun_Bag",
-	"ALiVE_tablet"
+	"ALiVE_tablet",
+	"ACE_PersonalAidKit"
 ]] call ace_arsenal_fnc_removeVirtualItems;
