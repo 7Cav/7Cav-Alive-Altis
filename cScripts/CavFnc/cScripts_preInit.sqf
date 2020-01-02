@@ -21,7 +21,7 @@ private _cScriptSettings = "cScripts Mission Settings";
     "LIST",
     ["Mission Type", "This will deside on what kind of startup hint you get on mission start.\n"],
     [_cScriptSettings, "1; Mission"],
-    [[0,1,2,3,4], ["Custom", "Operation", "Training", "Public", "Public ALiVE"], 4],
+    [[0,1,2,3,4], ["Custom", "Operation", "Training", "Public", "Public ALiVE"], 1],
     true,
     {}
 ] call CBA_fnc_addSetting;
@@ -42,7 +42,7 @@ private _cScriptSettings = "cScripts Mission Settings";
     QEGVAR(Settings,enableStartHint),
     "CHECKBOX",
     ["Startup Hint", "Enable or disable startup hints on mission start.\n"],
-    [_cScriptSettings, "4; Mission Startup"],
+    [_cScriptSettings, "2; Mission Startup"],
     true,
     true,
     {}
@@ -105,6 +105,8 @@ private _cScriptSettings = "cScripts Mission Settings";
     true,
     {}
 ] call CBA_fnc_addSetting;
+
+
 
 // Supply
 [
@@ -297,7 +299,7 @@ switch (EGVAR(Settings,setMissionType)) do {
     };
     case (3): { // Public
     };
-    case (4): { // Tac2
+    case (4): { // Public Alive
     };
 };
 

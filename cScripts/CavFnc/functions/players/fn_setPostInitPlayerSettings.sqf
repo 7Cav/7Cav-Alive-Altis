@@ -32,21 +32,14 @@ params [
 
 // Safety first
 if (_safemode) then {
-    private _weapon = currentWeapon _player;
-    private _safedWeapons = _player getVariable ['ace_safemode_safedWeapons', []];
-    if !(_weapon in _safedWeapons) then { 
-        [_player, currentWeapon _player, currentMuzzle _player] call ace_safemode_fnc_lockSafety;
-    };
-    #ifdef DEBUG_MODE
-        if (_safeMode) then {[formatText["%1 have got their weapon on safe in postLoadout.", _player]] call FUNC(logInfo);};
-    #endif
+    [_player, currentWeapon _player, true] call ace_safemode_fnc_setWeaponSafety;
 };
 
 // Add earplugs if you dont have them in.
 if (_earPlugs) then {
     if !([_player] call ace_hearing_fnc_hasEarPlugsIn) then {[_player] call ace_hearing_fnc_putInEarplugs;};
     #ifdef DEBUG_MODE
-        if (_earPlugs) then {[formatText["%1 have got their earplugs assigned in postLoadout.", _player]] call FUNC(logInfo);};
+        if (_earPlugs) then {[formatText["%1 have got there earplugs assigned in postLoadout.", _player]] call FUNC(logInfo);};
     #endif
 };
 
@@ -84,7 +77,7 @@ if (EGVAR(Settings,enforceEyewereBlacklist)) then {
         if (goggles _player in _blacklist_glasses) then {
             _player unlinkItem (goggles _player);
             #ifdef DEBUG_MODE
-                [format["%1 using un-authorized facewere it has been removed.", _player]] call FUNC(logInfo);
+                [format["%1 using un-authorized facewere it have been removed.", _player]] call FUNC(logInfo);
             #endif
         };
     };
@@ -98,15 +91,16 @@ if (EGVAR(Settings,allowInsigniaApplication)) then {
         if !(isNil {profileNamespace getVariable QEGVAR(Cav,Insignia)}) then {
             _insignia = profileNamespace getVariable QEGVAR(Cav,Insignia);
             #ifdef DEBUG_MODE
-                [format["%1 got assigned insignia; %2 based on stored variable.", _player, _insignia]] call FUNC(logInfo);
+                [format["%1 got assigned insignia; %2 based on stored insignia.", _player, _insignia]] call FUNC(logInfo);
             #endif
         } else {
             _insignia = [_player] call FUNC(getSquadInsignia);
             #ifdef DEBUG_MODE
-                [format["%1 got assigned insignia; %2 based on squad name if any.", _player, _insignia]] call FUNC(logInfo);
+                [format["%1 got assigned insignia; %2 based on squad name.", _player, _insignia]] call FUNC(logInfo);
             #endif
         };
-        [_player, _insignia] call BIS_fnc_setUnitInsignia;
+        
+        [{[_this select 0, _this select 1] call BIS_fnc_setUnitInsignia;}, [_player, _insignia]] call CBA_fnc_execNextFrame;
     };
 };
 

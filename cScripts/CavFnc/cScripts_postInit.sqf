@@ -38,7 +38,7 @@ switch (EGVAR(Settings,setMissionType)) do {
     };
     case (3): { // Public
     };
-    case (4): { // Tac2
+    case (4): { // Public Alive
     };
 };
 
