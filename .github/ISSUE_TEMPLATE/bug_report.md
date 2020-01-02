@@ -1,7 +1,7 @@
 ---
-name: Bug report
+name: TAC2 Bug Report
 about: Submit issues related to TAC2
-title: "[BUG]"
+title: ''
 labels: bug
 assignees: ''
 
