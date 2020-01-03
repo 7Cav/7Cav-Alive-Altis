@@ -1,0 +1,77 @@
+/*
+ * Insert the variables below into the "Variable Name" field of the unit.
+ * Example: Variable Name: GUNS_7
+ *
+ * Insert the following entries into the INIT.
+ * this setgroupID["NameOfGroup"];
+ *
+ * Set Repair Ability (Havoc, Apollo, Saber, Buff, Raven, Sparrow, Titan, Eagle)
+ * this setVariable ["ace_repair_fnc_isEngineer", true, true];
+ *
+ * Set Medic Ability (Mustang)
+ * this setVariable ["ace_medical_treatment_fnc_isMedic", true, true];
+ *
+ * Made by Davidcit646@gmail.com
+ */
+
+//Platoon Leadership
+GUNS_7
+GUNS_6
+GUNS_5
+//The PLatoon
+GUNS_1
+GUNS_2
+GUNS_3
+GUNS_4
+//Longshot
+LONG_11
+LONG_12
+//Saber 1
+SAB_11
+SAB_12
+SAB_13
+SAB_14
+//Saber 2
+SAB_21
+SAB_22
+SAB_23
+SAB_24
+//Apollo 
+APO_1
+//Havoc
+HAV_1
+//Mustang
+MUST_1
+MUST_2
+//Forward Air Controller
+INF_1
+//Forward Observer
+ODIN_1
+//Buffallo 1
+BUF_11
+BUF_12
+BUF_13
+BUF_14
+//Buffallo 2
+BUF_21
+BUF_22
+//Sparrow
+SPR_11
+SPR_12
+//Raider
+RAID_11
+RAID_12
+//Raven
+RAV_11
+RAV_12
+//Titan (C130/C17)
+TIT_1
+//Eagle/Hog
+EAG_1
+//Mission Controllers
+zeusman1
+zeusman2
+zeusman3
+//Military Police
+mp_1
+mp_2
