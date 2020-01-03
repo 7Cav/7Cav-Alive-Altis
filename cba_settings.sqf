@@ -177,6 +177,7 @@ ace_maptools_drawStraightLines = true;
 ace_maptools_rotateModifierKey = 1;
 
 // ACE Medical
+<<<<<<< HEAD
 force force ace_medical_ai_enabledFor = 0;
 force force ace_medical_AIDamageThreshold = 0.4;
 force force ace_medical_bleedingCoefficient = 1;
@@ -184,6 +185,15 @@ force force ace_medical_blood_bloodLifetime = 900;
 force force force ace_medical_blood_enabledFor = 2;
 force force ace_medical_blood_maxBloodObjects = 500;
 force force ace_medical_fatalDamageSource = 2;
+=======
+force ace_medical_ai_enabledFor = 2;
+force ace_medical_AIDamageThreshold = 1.5;
+force ace_medical_bleedingCoefficient = 1;
+force ace_medical_blood_bloodLifetime = 900;
+force ace_medical_blood_enabledFor = 2;
+force ace_medical_blood_maxBloodObjects = 500;
+force ace_medical_fatalDamageSource = 0;
+>>>>>>> Blake
 ace_medical_feedback_painEffectType = 0;
 force force ace_medical_fractures = 1;
 ace_medical_gui_enableActions = 0;
