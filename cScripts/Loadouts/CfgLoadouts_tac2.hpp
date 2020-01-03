@@ -257,7 +257,6 @@ class tac2_alphaGren : tac2_base {
     "rhs_mag_m67",1,
     "smokeShell",2
     };
-
 };
 // Alpha Rifleman
 class tac2_alphaRifle : tac2_base {
