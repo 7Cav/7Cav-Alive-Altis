@@ -32,7 +32,7 @@ class tac2_base : commonBlufor {
     headgear[] = {"rhsusf_ach_helmet_headset_ess_ocp_alt"};
     uniform[] = {"rhs_uniform_acu_oefcp"};
     vest[] = {"rhsusf_iotv_ocp_Teamleader"};
-    primary[] = {"rhs_weap_m4_carryhandle_mstock","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15side_bk","rhsusf_acc_ACOG_RMR","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhsusf_acc_rvg_blk"};
+    primary[] = {"rhs_weap_m4a1_carryhandle_mstock","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_xps3","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhsusf_acc_rvg_blk"};
     secondary[] = {""};
     launcher[] = {""};
     binoculars[] = {"ACE_Vector"};
@@ -74,7 +74,7 @@ class tac2_Leadership : commonBlufor {
     headgear[] = {"rhsusf_ach_helmet_headset_ess_ocp_alt"};
     uniform[] = {"rhs_uniform_acu_oefcp"};
     vest[] = {"rhsusf_iotv_ocp_SquadLeader"};
-    primary[] = {"rhs_weap_m4_carryhandle_mstock","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_xps3","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhsusf_acc_rvg_blk"};
+    primary[] = {"rhs_weap_m4a1_carryhandle_mstock","rhsusf_acc_SFMB556","rhsusf_acc_anpeq15side_bk","rhsusf_acc_ACOG_RMR","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhsusf_acc_rvg_blk"};
     secondary[] = {""};
     launcher[] = {""};
     binoculars[] = {"ACE_Vector"};
@@ -173,7 +173,7 @@ class tac2_heliPilot : tac2_base {
 //JET PILOT
 class tac2_jetPilot : tac2_base {
     headgear[] = {"H_PilotHelmetFighter_B"};
-    uniform[] = {"U_B_Plot_Coveralls"};
+    uniform[] = {"U_B_PilotCoveralls"};
     vest[] = {""};
     primary[] = {"rhsusf_weap_MP7A2","rhsusf_acc_anpeq15side_bk","rhsusf_acc_mrds"};
     magazines[] = {
@@ -343,6 +343,8 @@ class tac2_Mustang : tac2_base {
        "ACE_PersonalAidKit",4,
        "ACE_tourniquet",8,
        "ACE_salineIV",8
+    preLoadout = "[(_this select 0), 'charlie', 0, 0] call cScripts_fnc_setPreInitPlayerSettings;";
+    postLoadout = "[(_this select 0),true,true] call cScripts_fnc_setPostInitPlayerSettings;";
     };
 };
 //Apollo
