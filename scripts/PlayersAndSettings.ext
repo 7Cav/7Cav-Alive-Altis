@@ -46,7 +46,13 @@ MUST_2
 //Forward Air Controller
 INF_1
 //Forward Observer
+<<<<<<< HEAD
 ODIN_1
+=======
+//ODIN_1
+//Hunter
+HUNT_1
+>>>>>>> Blake
 //Buffallo 1
 BUF_11
 BUF_12
