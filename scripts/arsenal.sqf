@@ -1,5 +1,5 @@
 params [["_object", objNull, [objNull]]];
-[_object, "none", true, true, true, true, false] call cScripts_fnc_doStarterCrate;
+[_object, "all", true, true, true, true, false] call cScripts_fnc_doStarterCrate;
 [_object, true] call ace_arsenal_fnc_initBox;
 [_object, [
 	"launch_I_Titan_F",
