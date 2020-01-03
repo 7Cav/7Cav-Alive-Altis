@@ -113,5 +113,5 @@ params [["_object", objNull, [objNull]]];
 	"I_E_AA_01_weapon_F",
 	"RHS_SPG9_Tripod_Bag",
 	"RHS_SPG9_Gun_Bag",
-	"ALiVE_tablet"
+	"ALIVE_Tablet"
 ]] call ace_arsenal_fnc_removeVirtualItems;}] call CBA_fnc_execNextFrame
