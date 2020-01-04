@@ -1,7 +1,7 @@
-params [["_object", objNull, [objNull]]];
-[_object, "none", true, true, true, true, false] call cScripts_fnc_doStarterCrate;
-[_object, true] call ace_arsenal_fnc_initBox;
-[{[_object, [
+null = [_this select 0] execVM "scripts\EmptyInventory.sqf";
+[_this select 0, "charlie"] call cScripts_fnc_doStarterCrate;
+[_this select 0, true] call ace_arsenal_fnc_initBox;
+[_this select 0, [
 	"launch_I_Titan_F",
 	"launch_O_Titan_ghex_F",
 	"launch_O_Titan_F",
@@ -113,5 +113,5 @@ params [["_object", objNull, [objNull]]];
 	"I_E_AA_01_weapon_F",
 	"RHS_SPG9_Tripod_Bag",
 	"RHS_SPG9_Gun_Bag",
-	"ALIVE_Tablet"
-]] call ace_arsenal_fnc_removeVirtualItems;}] call CBA_fnc_execNextFrame
+	""
+]] call ace_arsenal_fnc_removeVirtualItems;

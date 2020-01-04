@@ -41,3 +41,9 @@ class rhsusf_army_ocp_arb_medic : tac2_bravoRifle {};
 //Facc & Forward Observer
 class Cav_B_A_AirController_F : tac2_Platoon_Leader {};
 class Cav_B_A_JFO_F : tac2_Platoon_Leader {};
+//Havoc
+class rhsusf_army_ocp_squadleader : tac2_Squad_Leader {};
+class rhsusf_army_ocp_rifleman : tac2_alphaRifle {};
+class rhsusf_army_ocp_autorifleman : tac2_alphaAR {};
+class rhsusf_army_ocp_marksman : tac2_alphaRifle {};
+class rhsusf_army_ocp_medic : tac2_bravoRifle {};
