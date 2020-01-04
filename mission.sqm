@@ -8,7 +8,7 @@ class EditorData
 	toggles=1573;
 	class ItemIDProvider
 	{
-		nextID=13971;
+		nextID=13972;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=5022;
+		nextID=5064;
 	};
 	class Camera
 	{
-		pos[]={14169.841,41.962765,16345.89};
-		dir[]={0.49777237,-0.56253982,0.6603179};
-		up[]={0.33867791,0.82670003,0.44926906};
-		aside[]={0.7986111,5.1921234e-008,-0.60202092};
+		pos[]={14127.096,28.471432,16255.364};
+		dir[]={-0.63301796,-0.52309847,-0.57066947};
+		up[]={-0.38852516,0.85227072,-0.35025811};
+		aside[]={-0.66958398,-1.7066486e-007,0.74273896};
 	};
 };
 binarizationWanted=0;
@@ -142,7 +142,8 @@ addons[]=
 	"ace_goggles",
 	"ace_gforces",
 	"A3_Characters_F_Jets",
-	"rhsusf_main"
+	"rhsusf_main",
+	"A3_Modules_F_StrategicMap"
 };
 class AddonsMetaData
 {
@@ -911,7 +912,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=55;
+		items=56;
 		class Item0
 		{
 			dataType="Layer";
@@ -43489,7 +43490,6 @@ class Mission
 							side="Empty";
 							class Attributes
 							{
-								createAsSimpleObject=1;
 								disableSimulation=1;
 							};
 							id=12203;
@@ -83762,6 +83762,96 @@ class Mission
 					};
 				};
 				nAttributes=1;
+			};
+		};
+		class Item55
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={15429.888,18.692099,17120.834};
+			};
+			id=13971;
+			type="ModuleStrategicMapORBAT_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleStrategicMapORBAT_F_Path";
+					expression="_this setVariable ['Path',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="missionConfigFile >> ""CfgOrbat"" >> ""Regi""";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleStrategicMapORBAT_F_Tags";
+					expression="_this setVariable ['Tags',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleStrategicMapORBAT_F_Parent";
+					expression="_this setVariable ['Parent',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleStrategicMapORBAT_F_Tiers";
+					expression="_this setVariable ['Tiers',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="3";
+						};
+					};
+				};
+				nAttributes=4;
 			};
 		};
 	};
