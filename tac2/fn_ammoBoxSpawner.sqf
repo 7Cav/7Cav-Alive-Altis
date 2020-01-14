@@ -10,7 +10,7 @@ the array following the marker definition. The array has the structure of:
 [["Display Name1", "Class Name1"], ["Display Name2", "Class Name2"], etc,etc,etc]
 */
 
-// Get the object the spawn options will belong to
+// Get the object the spawn options  will belong to
 _this params ["_object", "_marker", "_items"];
 
 _spawn_box = {
