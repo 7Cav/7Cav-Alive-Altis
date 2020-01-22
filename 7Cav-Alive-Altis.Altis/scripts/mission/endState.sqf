@@ -1,4 +1,4 @@
-i = 0
+/*i = 0
 
 addEventHandler {
     addAction [addaction shit];
@@ -80,4 +80,4 @@ term_02 addAction ["<t color='#00ff00' font='PuristaMedium' size='1.1'>Begin Tra
     sleep 5;
     hint parseText "<t color='#00ff00' font='PuristaMedium' size='1.1'>...finished!</t>";
     }
-];
+];*/
