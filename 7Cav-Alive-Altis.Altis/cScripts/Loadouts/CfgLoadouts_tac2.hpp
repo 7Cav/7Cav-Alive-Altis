@@ -1,32 +1,7 @@
-
 class CommonBlufor {
-    // backpack[] = {""};
-    // goggles[] = {"rhs_googles_clear"};
-    // headgear[] = {"rhsusf_ach_helmet_headset_ocp"};
-    // uniform[] = {"rhs_uniform_cu_ocp_1stcav"};
-    // vest[] = {""};
-
-    // primary[] = {""};
-    // secondary[] = {""};
-    // launcher[] = {""};
-
-    // binoculars[] = {""};
-
-    // magazines[] = {""};
-    // items[] = {""};
-
-    // compass[] = {"ItemCompass"};
-    // gps[] = {""};
-    // map[] = {"ItemMap"};
-    // nvgs[] = {""};
-    // watch[] = {"itemWatch"};
-
-    // insignia[] = {""};
-    //preLoadout = "";
-    //postLoadout = "";
 };
 /*-------------------BASE LOADOUTS-------------------*/
-class tac2_base : commonBlufor {
+class tac2_base : CommonBlufor {
     backpack[] = {"B_AssaultPack_mcamo"};
     goggles[] = {""};
     headgear[] = {"rhsusf_ach_helmet_headset_ess_ocp_alt"};
