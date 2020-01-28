@@ -1,3 +1,6 @@
+class CommonBlufor {
+};
+// base loadouts
 class Cav_B_Alpha_base_F : CommonBlufor {
     backpack[] = {""};
     //goggles[] = {""};

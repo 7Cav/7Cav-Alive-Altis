@@ -1,6 +1,4 @@
-
 //                C H A R L I E   C O M P A N Y
-
 class Cav_B_C_PlatoonSergeant_F : Cav_B_C_Officer_F {};
 class Cav_B_C_PlatoonLeader_F : Cav_B_C_Officer_F {};
 

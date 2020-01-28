@@ -1,31 +1,6 @@
-
 class CommonBlufor {
-    // backpack[] = {""};
-    // goggles[] = {"rhs_googles_clear"};
-    // headgear[] = {"rhsusf_ach_helmet_headset_ocp"};
-    // uniform[] = {"rhs_uniform_cu_ocp_1stcav"};
-    // vest[] = {""};
-
-    // primary[] = {""};
-    // secondary[] = {""};
-    // launcher[] = {""};
-
-    // binoculars[] = {""};
-
-    // magazines[] = {""};
-    // items[] = {""};
-
-    // compass[] = {"ItemCompass"};
-    // gps[] = {""};
-    // map[] = {"ItemMap"};
-    // nvgs[] = {""};
-    // watch[] = {"itemWatch"};
-
-    // insignia[] = {""};
-    //preLoadout = "";
-    //postLoadout = "";
 };
-
+// base loadouts
 class Cav_B_Alpha_base_F : CommonBlufor {
     backpack[] = {""};
     //goggles[] = {""};
