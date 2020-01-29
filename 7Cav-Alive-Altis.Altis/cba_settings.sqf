@@ -1,27 +1,27 @@
 // ACE Advanced Ballistics
-force force ace_advanced_ballistics_ammoTemperatureEnabled = true;
-force force ace_advanced_ballistics_barrelLengthInfluenceEnabled = true;
-force force ace_advanced_ballistics_bulletTraceEnabled = true;
+ace_advanced_ballistics_ammoTemperatureEnabled = true;
+ace_advanced_ballistics_barrelLengthInfluenceEnabled = true;
+ace_advanced_ballistics_bulletTraceEnabled = true;
 force force ace_advanced_ballistics_enabled = false;
-force force ace_advanced_ballistics_muzzleVelocityVariationEnabled = true;
-force force ace_advanced_ballistics_simulationInterval = 0.05;
+ace_advanced_ballistics_muzzleVelocityVariationEnabled = true;
+ace_advanced_ballistics_simulationInterval = 0.05;
  
 // ACE Advanced Fatigue
 force force ace_advanced_fatigue_enabled = true;
 force force ace_advanced_fatigue_enableStaminaBar = true;
-ace_advanced_fatigue_fadeStaminaBar = true;
-force force ace_advanced_fatigue_loadFactor = 1;
-force force ace_advanced_fatigue_performanceFactor = 1;
-force force ace_advanced_fatigue_recoveryFactor = 5;
-force force ace_advanced_fatigue_swayFactor = 0.5;
-force force ace_advanced_fatigue_terrainGradientFactor = 0.5;
+force force ace_advanced_fatigue_fadeStaminaBar = true;
+force force ace_advanced_fatigue_loadFactor = 0.8;
+force force ace_advanced_fatigue_performanceFactor = 1.75;
+force force ace_advanced_fatigue_recoveryFactor = 4.35;
+force force ace_advanced_fatigue_swayFactor = 0.7;
+force force ace_advanced_fatigue_terrainGradientFactor = 1;
  
 // ACE Advanced Throwing
-ace_advanced_throwing_enabled = true;
+force force ace_advanced_throwing_enabled = true;
 force force ace_advanced_throwing_enablePickUp = true;
 force force ace_advanced_throwing_enablePickUpAttached = true;
-ace_advanced_throwing_showMouseControls = true;
-ace_advanced_throwing_showThrowArc = true;
+force force ace_advanced_throwing_showMouseControls = true;
+force force ace_advanced_throwing_showThrowArc = true;
  
 // ACE Arsenal
 force force ace_arsenal_allowDefaultLoadouts = true;
@@ -57,13 +57,13 @@ ace_common_settingFeedbackIcons = 1;
 ace_common_settingProgressBarLocation = 0;
 force force ace_noradio_enabled = true;
 ace_parachute_hideAltimeter = true;
- 
+
 // ACE Cook off
-force force ace_cookoff_ammoCookoffDuration = 1;
+force ace_cookoff_ammoCookoffDuration = 0.75;
 force force ace_cookoff_enable = 0;
-force force ace_cookoff_enableAmmobox = true;
-force force ace_cookoff_enableAmmoCookoff = true;
-force force force ace_cookoff_probabilityCoef = 3;
+force force ace_cookoff_enableAmmobox = false;
+force force ace_cookoff_enableAmmoCookoff = false;
+force ace_cookoff_probabilityCoef = 1;
  
 // ACE Crew Served Weapons
 force force ace_csw_ammoHandling = 2;
@@ -375,7 +375,7 @@ force force ace_vehicles_keepEngineRunning = false;
 // ACE View Distance Limiter
 force force ace_viewdistance_enabled = true;
 force force ace_viewdistance_limitViewDistance = 10000;
-ace_viewdistance_objectViewDistanceCoeff = 0;
+ace_viewdistance_objectViewDistanceCoeff = 3;
 ace_viewdistance_viewDistanceAirVehicle = 0;
 ace_viewdistance_viewDistanceLandVehicle = 0;
 ace_viewdistance_viewDistanceOnFoot = 0;
@@ -564,7 +564,7 @@ force force VCM_MINECHANCE = 75;
 force force Vcm_PlayerAISkills = true;
 force force VCM_RAGDOLL = true;
 force force VCM_RAGDOLLCHC = 50;
-force force VCM_SIDEENABLED = [WEST,EAST,GUER];
+//force force VCM_SIDEENABLED = [WEST,EAST,GUER];
 force force VCM_SKILLCHANGE = true;
 force force VCM_STATICARMT = 300;
 force force VCM_StealVeh = true;

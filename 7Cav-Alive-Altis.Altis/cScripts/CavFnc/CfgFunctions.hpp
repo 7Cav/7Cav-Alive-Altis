@@ -6,8 +6,6 @@ class cScripts {
         class initSupply {};
         class initVehicle {};
 
-        class initDocuments {};
-
         class initStartupHint {};
 
         class initModules {};
@@ -16,22 +14,6 @@ class cScripts {
         class initFortify {};
 
         class initCuratorObjectPlaced {};
-    };
-    class documents {
-        file = "cScripts\cavFnc\functions\documents";
-        class Doc_Info {};
-        class Doc_MissionControl {};
-
-        class DocRadio_LACEACE {};
-        class DocRadio_MEDEVAC {};
-        class DocRadio_ROTARYPICKUP {};
-        class DocRadio_SPOTREP {};
-
-        class DocChklist_CFF {};
-        class DocChklist_JMTASKS {};
-        class DocChklist_LZSPECS {};
-        class DocChklist_LZINSERT {};
-        class DocChklist_LZEXTRACT {};
     };
     class logistics {
         file = "cScripts\cavFnc\functions\logistics";
