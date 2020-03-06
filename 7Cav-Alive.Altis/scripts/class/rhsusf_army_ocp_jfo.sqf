@@ -5,7 +5,7 @@ if (_state == "init") then
 	[] call Tac2_fnc_treeCutterInitPlayer;
 
 	player setvariable ["ACE_IsEngineer", 2];
-	player setVariable ["TAC2_canFortify", true, true];		//fixed by zlobin
+	player setVariable ["TAC2_canFortify", true, true];
 
 	[player] call CLIENT_SetInfantryVehiclePermissions;
 	{
