@@ -52,6 +52,9 @@ setDate _date;
 
 enableEnvironment [false, true];
 
+//Allow M119A2 Howitzer to be towable
+SA_TOW_RULES_OVERRIDE = [ ["AllVehicles", "CAN_TOW", "RHS_M119_WD"]];
+
 // BEGIN TASKS
 [ //TERMINAL 1 ( Term1 )
   BLUFOR, //Group (can be boolean)
