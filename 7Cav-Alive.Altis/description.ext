@@ -8,11 +8,6 @@ overviewPicture = "";
 briefing = 0;
 debriefing = 0;
 
-<<<<<<< Updated upstream
-=======
-//This is a test.
-//This is a test.
->>>>>>> Stashed changes
 // Rules
 cba_settings_hasSettingsFile = 1;
 disabledAI = true;
