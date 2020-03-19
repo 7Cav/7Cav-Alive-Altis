@@ -100,7 +100,7 @@ switch (true) do {
         [_vehicle] call FUNC(addJump);
     };
 //    case (typeOf _vehicle in _logisticalVehicles): {
-        [_vehicle] call FUNC(addFortifyArea);
+//      [_vehicle] call FUNC(addFortifyArea);
 //    };
 };
 
