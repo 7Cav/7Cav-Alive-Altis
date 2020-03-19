@@ -8,6 +8,7 @@ overviewPicture = "";
 briefing = 0;
 debriefing = 0;
 
+//This is a test.
 // Rules
 cba_settings_hasSettingsFile = 1;
 disabledAI = true;
