@@ -1,3 +1,4 @@
+//duh
 onLoadName = "7Cav Full Spectrum v5.6";
 
 onLoadMission = "Welcome to 7th Cavalry Tactical Realism! Join us on TeamSpeak at ts3.7cav.us Password: 7thCavalry";
@@ -7,7 +8,7 @@ overviewPicture = "";
 
 briefing = 0;
 debriefing = 0;
-
+//duh electric boogaloo
 // Rules
 cba_settings_hasSettingsFile = 1;
 disabledAI = true;
