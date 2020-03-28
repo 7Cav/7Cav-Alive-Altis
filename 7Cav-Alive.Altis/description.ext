@@ -5,6 +5,7 @@ author = "7th Cavalry Regiment!";
 loadScreen = "media\images\MissionLogo.paa";
 overviewPicture = "";
 
+//Testing.
 briefing = 0;
 debriefing = 0;
 
