@@ -59,7 +59,7 @@ class Extended_PreInit_EventHandlers {
 class Extended_PostInit_EventHandlers {
 	cScripts_postInit = "0 spawn compile preprocessFileLineNumbers 'cScripts\CavFnc\cScripts_postInit.sqf'";
 	tac2_postInit = "call compile preprocessFileLineNumbers 'tac2\tac2_postInit.sqf'";
-
+};
 // Common dialog classes
 #include "scripts\common.hpp"
 #include "tac2\loyalty\loyalty_gui.hpp"
