@@ -1,4 +1,4 @@
-onLoadName = "7Cav Full Spectrum v5.6";
+onLoadName = "7Cav Full Spectrum v5.7";
 
 onLoadMission = "Welcome to 7th Cavalry Tactical Realism! Join us on TeamSpeak at ts3.7cav.us Password: 7thCavalry";
 author = "7th Cavalry Regiment!";
@@ -15,8 +15,8 @@ disabledAI = true;
 disableChannels[] = {{0,false,true},{1,false,true},{2,true,true},{6,true,true}};
 forceRotorLibSimulation = 0;
 allowFunctionsLog = 0;
-respawnOnStart = -1;
 Respawn = 3;
+respawnOnStart = 1;
 RespawnDelay = 5;
 RespawnDialog = 1;
 
@@ -41,16 +41,25 @@ enableDebugConsole[] = {
     "76561198025844585",    // MacMillian.M
     "76561198064095277",    // Citarelli.D
     "76561198048006094",    // Bojan
+	"76561198043140265",	// Centeno
+	"76561198073062030",	// Ocean
+	//"123",	// Currier
+	//"123",	// Knightz 
+	//"123",	// Spiers
+	"76561197991479113",	// Zlobin
+	//"123"		// ODoyle
 };
 
 class Extended_PreInit_EventHandlers {
 	cScripts_preInit = "0 spawn compile preprocessFileLineNumbers 'cScripts\CavFnc\cScripts_preInit.sqf'";
 	tac2_preInit = "call compile preprocessFileLineNumbers 'tac2\tac2_preInit.sqf'";
+	VCM_CBASettings = call compile preprocessFileLineNumbers "Vcom\Functions\VCM_Functions\fn_CBASettings.sqf";
 };
+
 class Extended_PostInit_EventHandlers {
 	cScripts_postInit = "0 spawn compile preprocessFileLineNumbers 'cScripts\CavFnc\cScripts_postInit.sqf'";
 	tac2_postInit = "call compile preprocessFileLineNumbers 'tac2\tac2_postInit.sqf'";
-};
+
 // Common dialog classes
 #include "scripts\common.hpp"
 #include "tac2\loyalty\loyalty_gui.hpp"
@@ -87,7 +96,6 @@ class CfgDebriefing {
 		picture = "";
 		pictureColor[] = {0.0,0.3,0.6,1};
 	};
-
 	class PoliceEjection {
 		title = "Military Police Action";
 		subtitle = "";
@@ -96,7 +104,6 @@ class CfgDebriefing {
 		picture = "";
 		pictureColor[] = {0.0,0.3,0.6,1};
 	};
-
 	class BootAll {
 		title = "Military Police Action";
 		subtitle = "";
@@ -120,8 +127,4 @@ class CfgRemoteExec {
 		class enableSimulationGlobal { allowedTargets = 0;jip = 1; };
 		class VCM_fnc_KnowAbout { allowedTargets = 0;jip = 1; };
 	};
-};
-
-class Extended_PreInit_EventHandlers {
-	VCM_CBASettings = call compile preprocessFileLineNumbers "Vcom\Functions\VCM_Functions\fn_CBASettings.sqf";
 };
