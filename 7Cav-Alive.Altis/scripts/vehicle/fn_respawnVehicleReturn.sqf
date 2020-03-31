@@ -56,7 +56,7 @@ else
 
 	{
 		if (not isPlayer _x && { not isObjectHidden _x } && { ([_vehicle, _x] call utils_fnc_objectBoundsIntersect) }) then { [_x] call vehicle_fnc_respawnVehicleReturn };
-	} forEach (_vehicle nearObjects 30);
+	} forEach (_vehicle nearObjects ['AllVehicles', 30]);
 
 	_vehicle hideObjectGlobal false;
 };
