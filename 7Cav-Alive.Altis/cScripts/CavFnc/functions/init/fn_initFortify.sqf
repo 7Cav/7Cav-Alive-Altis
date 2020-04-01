@@ -19,11 +19,11 @@
 if !(isServer) exitWith {};
 
 #ifdef DEBUG_MODE
-    [formatText["Adding Fortify registrated objects."]] call FUNC(logInfo);
+    [formatText["Adding Registered Fortify objects."]] call FUNC(logInfo);
 #endif
 
 params [
-    ["_budget", 900, [900]]
+    ["_budget", 400, [400]]
 ];
 
 _fortificationStructures = [

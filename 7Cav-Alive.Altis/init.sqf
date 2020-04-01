@@ -1,5 +1,34 @@
 diag_log "init start";
-//TEST
+//Start EH on Kill for Fortify Budget
+["CAManBase", "Init", {
+	params ["_entity"];
+	
+	_entity setVariable ["side_unit", side _entity];
+
+	_entity addEventHandler ["Killed", {
+		params ["_unit", "_killer", "_instigator", "_useEffects"];
+
+		_sideUnit = _unit getVariable ["side_unit", sideUnknown];
+		if (_sideUnit isEqualTo sideUnknown) exitWith {};
+
+		_budget = switch(_sideUnit) do {
+			case west: { -50 };
+			case east: { 20 };
+			case resistance: { 20 };
+			case civilian: {
+				if ((side _instigator) isEqualTo west) then { -100 } else { 0 }
+			};
+			default { 0 };
+		};
+		
+		if (_budget isEqualTo 0) exitWith {};
+
+		[west, _budget, (_sideUnit isEqualTo civilian)] call acex_fortify_fnc_updateBudget;
+		["ACE_Fortify_budget_change", []] call CBA_fnc_serverEvent;
+	}];
+
+}] call CBA_fnc_addClassEventHandler;
+
 //Server AI Skill
 if (isMultiplayer) then {
     switch (cScripts_Settings_setAiSystemDifficulty) do {
