@@ -22,6 +22,7 @@ class tac2 {
 		class modHideObjects;
 		class modCopyTerrainObject;
 		class modSetRelHeight;
+		class modPauseOpcom;
 	};
 	class modules_impl {
 		file = "tac2\modules\impl";
