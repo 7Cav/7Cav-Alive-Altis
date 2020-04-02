@@ -16,7 +16,7 @@ disableChannels[] = {{0,false,true},{1,false,true},{2,true,true},{6,true,true}};
 forceRotorLibSimulation = 0;
 allowFunctionsLog = 0;
 Respawn = 3;
-respawnOnStart = 1;
+respawnOnStart = 0;
 RespawnDelay = 5;
 RespawnDialog = 1;
 
