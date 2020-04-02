@@ -73,7 +73,6 @@ class CfgFunctions {
 	#include "utils\CfgFunctions.hpp"
 	#include "scripts\vehicle\CfgFunctions.hpp"
 	#include "init\CfgFunctions.hpp"
-	#include "vcom\cfgFunctions.hpp"
 };
 
 #include "cScripts\Loadouts\script\CfgPoppy.hpp"
@@ -112,20 +111,5 @@ class CfgDebriefing {
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0.0,0.3,0.6,1};
-	};
-};
-
-//VCom AI
-class CfgRemoteExec {
-	// List of script functions allowed to be sent from client via remoteExec
-	class Functions {
-		mode = 2;
-		jip = 1;		
-		class vcm_serverask { allowedTargets = 0;jip = 1; };
-		class VCM_PublicScript { allowedTargets = 0;jip = 1; };
-		class BIS_fnc_debugConsoleExec { allowedTargets = 0;jip = 1; };
-		class SpawnScript { allowedTargets = 0;jip = 1; };
-		class enableSimulationGlobal { allowedTargets = 0;jip = 1; };
-		class VCM_fnc_KnowAbout { allowedTargets = 0;jip = 1; };
 	};
 };
