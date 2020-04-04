@@ -464,4 +464,19 @@ class CfgOrbat
 		description= "Russian Potato Farmers Turned Special Forces!"; // A brief description of the group or unit.
 		assets[] = {};
     };
+	class gSpecop
+	{
+		id = 1;        // Unit ID
+		idType = 3;    // Unit ID type
+		side = "Independent"; // Unit side from CfgChainOfCommand >> Sides
+		size = "Battalion"; // Unit size from CfgChainOfCommand >> Sizes. Displays relevant icon above the Type icon
+		type = "Recon"; // Unit type from CfgChainOfCommand >> Types
+		commander = "Anatolii"; // Name of unit commander. Can be either direct name, or class from CfgWorlds >> GenericNames (random name from the list is then selected)
+		commanderRank = "Colonol"; // Rank of unit commander (by default selected based on unit size)
+		tags[] = {OPF_specop}; // Group tags. When opening ORBAT viewer, user can define what tags will be accepted.
+		text = "Special Potato Farmers"; // Custom text and short text, can still use some arguments when defined:
+		textShort = "Russian %4 %3 ";
+		description= "Russian Potato Farmers Turned Special Forces!"; // A brief description of the group or unit.
+		assets[] = {};
+    };
 };
