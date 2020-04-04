@@ -54,7 +54,6 @@ enableDebugConsole[] = {
 class Extended_PreInit_EventHandlers {
 	cScripts_preInit = "0 spawn compile preprocessFileLineNumbers 'cScripts\CavFnc\cScripts_preInit.sqf'";
 	tac2_preInit = "call compile preprocessFileLineNumbers 'tac2\tac2_preInit.sqf'";
-	VCM_CBASettings = call compile preprocessFileLineNumbers "Vcom\Functions\VCM_Functions\fn_CBASettings.sqf";
 };
 
 class Extended_PostInit_EventHandlers {
