@@ -67,7 +67,7 @@ force ace_cookoff_probabilityCoef = 1;
 
 // ACE Crew Served Weapons
 force force ace_csw_ammoHandling = 2;
-force force ace_csw_defaultAssemblyMode = false;
+force force ace_csw_defaultAssemblyMode = true;
 ace_csw_dragAfterDeploy = false;
 force force ace_csw_handleExtraMagazines = true;
 force force ace_csw_progressBarTimeCoefficent = 1;
@@ -78,9 +78,9 @@ force force ace_explosives_punishNonSpecialists = true;
 force force ace_explosives_requireSpecialist = false;
 
 // ACE Fragmentation Simulation
-force force ace_frag_enabled = true;
-force force ace_frag_maxTrack = 5;
-force force ace_frag_maxTrackPerFrame = 5;
+force force ace_frag_enabled = false;
+force force ace_frag_maxTrack = 2;
+force force ace_frag_maxTrackPerFrame = 2;
 force force ace_frag_reflectionsEnabled = false;
 force force ace_frag_spallEnabled = false;
 
