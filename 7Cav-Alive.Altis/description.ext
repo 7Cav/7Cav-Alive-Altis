@@ -40,7 +40,7 @@ enableDebugConsole[] = {
     // Admin
     "76561198025844585",    // MacMillian.M
     "76561198064095277",    // Citarelli.D
-	"76561197961894729"		// ODoyle
+	"76561197961894729", 	// ODoyle
 	// Maintainer
     "76561198048006094",    // Bojan
 	"76561198043140265",	// Centeno
@@ -48,7 +48,7 @@ enableDebugConsole[] = {
 	"76561198089309425",	// Currier
 	"76561197998065387",	// Knightz 
 	"76561198042501866",	// Spiers
-	"76561197991479113",	// Zlobin
+	"76561197991479113" 	// Zlobin
 };
 
 class Extended_PreInit_EventHandlers {
