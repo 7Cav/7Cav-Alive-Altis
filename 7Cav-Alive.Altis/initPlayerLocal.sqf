@@ -12,7 +12,7 @@ enableSaving [false, false];
 // Enable group selection ('U' group menu)
 ["InitializePlayer", [player, true]] call BIS_fnc_dynamicGroups;
 /*
- * // Initialize player spawn position
+ * Initialize player spawn position
  * player setVariable ["CLIENT_PlayerPosition", [getPosASL player, getDir player]];
  */
  
