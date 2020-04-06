@@ -56,3 +56,11 @@ if !(isClass (configFile >> "CfgPatches" >> "achilles_data_f_ares")) exitWith { 
 ["7Cav - Tac2 SPM Tools", "Unchain Units",{
     [(_this select 0), (_this select 1)] call tac2_fnc_modUnchainUnit;
 }] call Ares_fnc_RegisterCustomModule;
+
+/*
+* ALiVE Tools
+*/
+
+["7Cav - Tac2 ALiVE Tools", "Pause SYS OPCOM",{
+    [(_this select 0), (_this select 1)] call tac2_fnc_modPauseOpcom;
+}] call Ares_fnc_RegisterCustomModule;
