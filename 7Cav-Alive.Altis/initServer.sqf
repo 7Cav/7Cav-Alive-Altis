@@ -2,7 +2,7 @@ diag_log "initServer start";
 
 #include "\serverscripts\zeusserverscripts\secretKey.sqf"
 missionNamespace setVariable["LOYALTY_CIPHER", CIPHERSECRETKEY, true];
-missionNamespace setVariable["endMissionNumber",0]; //Variable init for missionEnd scripts located in scripts/missionEnd
+missionNamespace setVariable["endMissionNumber", 0, true]; //Variable init for missionEnd scripts located in scripts/missionEnd
 
 // _null = [] execVM "scripts\sessionTimeMessagesInit.sqf";
 
