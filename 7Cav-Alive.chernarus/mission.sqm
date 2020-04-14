@@ -5,25 +5,25 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=641;
+	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=5539;
+		nextID=5540;
 	};
 	class MarkerIDProvider
 	{
-		nextID=18;
+		nextID=19;
 	};
 	class LayerIndexProvider
 	{
-		nextID=830;
+		nextID=928;
 	};
 	class Camera
 	{
-		pos[]={5748.4375,204.03105,12764.405};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={5564.1943,372.64145,12520.251};
+		dir[]={-0.46290621,-0.28649759,-0.83883291};
+		up[]={-0.13842385,0.95808047,-0.25083807};
+		aside[]={-0.87553382,2.8812792e-009,0.48315981};
 	};
 };
 binarizationWanted=0;
@@ -1134,7 +1134,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=360;
+		items=361;
 		class Item0
 		{
 			dataType="Object";
@@ -9455,7 +9455,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="OPF_CAV_AFRF_F";
+											value="OPF_CAV_RAF_F";
 										};
 									};
 								};
@@ -11199,7 +11199,7 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={4686.6094,339,10140.161};
+								position[]={4686.6089,339,10140.161};
 							};
 							name="opf_comm_mil";
 							id=1199;
@@ -11278,7 +11278,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="OPF_CAV_AFRF_F";
+											value="OPF_CAV_RAF_F";
 										};
 									};
 								};
@@ -11632,12 +11632,12 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={5363.0859,312.35904,9920.4902};
+								position[]={5363.0859,312.35916,9920.4902};
 							};
 							name="opf_comm_civ";
 							id=1201;
 							type="ALiVE_civ_placement";
-							atlOffset=2.6598816;
+							atlOffset=2.6600037;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -11731,7 +11731,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="OPF_CAV_AFRF_F";
+											value="OPF_CAV_RAF_F";
 										};
 									};
 								};
@@ -12127,7 +12127,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="OPF_CAV_AFRF_F";
+											value="OPF_CAV_RAF_F";
 										};
 									};
 								};
@@ -12954,7 +12954,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="OPF_CAV_AFRF_F";
+											value="OPF_CAV_RAF_F";
 										};
 									};
 								};
@@ -13156,13 +13156,13 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={1747.637,144.48712,3742.4131};
+								position[]={1747.637,144.48727,3742.4131};
 								angles[]={0,3.1399345,0};
 							};
 							name="grenfor_commander";
 							id=1825;
 							type="ALiVE_mil_OPCOM";
-							atlOffset=0.79884338;
+							atlOffset=0.79899597;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -13199,7 +13199,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="asymmetric";
+											value="invasion";
 										};
 									};
 								};
@@ -13313,7 +13313,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="OPF_CAV_GREN_F";
+											value="LOP_US";
 										};
 									};
 								};
@@ -13745,7 +13745,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="OPF_CAV_GREN_F";
+											value="LOP_US";
 										};
 									};
 								};
@@ -14105,7 +14105,6 @@ class Mission
 							name="grenfor_comm_civ";
 							id=1828;
 							type="ALiVE_civ_placement";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -14199,7 +14198,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="OPF_CAV_GREN_F";
+											value="LOP_US";
 										};
 									};
 								};
@@ -14595,7 +14594,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="OPF_CAV_GREN_F";
+											value="LOP_US";
 										};
 									};
 								};
@@ -14915,7 +14914,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="OPF_CAV_AFRF_F";
+											value="OPF_CAV_RAF_F";
 										};
 									};
 								};
@@ -15114,7 +15113,7 @@ class Mission
 						};
 					};
 					id=1189;
-					atlOffset=-61.168839;
+					atlOffset=-61.168823;
 				};
 				class Item1
 				{
@@ -16472,7 +16471,7 @@ class Mission
 					};
 					id=1556;
 					type="ModuleCurator_F";
-					atlOffset=3.8271503;
+					atlOffset=3.827158;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16840,8 +16839,8 @@ class Mission
 					dataType="Logic";
 					class PositionInfo
 					{
-						position[]={10754.119,-53.7528,1261.2305};
-						angles[]={6.2285728,0,6.2378831};
+						position[]={11042.304,-53.838768,1507.1558};
+						angles[]={6.2086568,0,6.2818484};
 					};
 					id=5532;
 					type="ModuleStrategicMapORBAT_F";
@@ -17116,12 +17115,12 @@ class Mission
 					dataType="Logic";
 					class PositionInfo
 					{
-						position[]={1850.8896,423.0473,9765.1758};
+						position[]={2200.8203,427.25482,10018.847};
 					};
 					name="o_armor";
 					id=5534;
 					type="ModuleStrategicMapORBAT_F";
-					atlOffset=178.25703;
+					atlOffset=178.25693;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -20628,7 +20627,7 @@ class Mission
 				};
 			};
 			id=1188;
-			atlOffset=9.9284973;
+			atlOffset=8.9381065;
 		};
 		class Item142
 		{
@@ -20651,7 +20650,7 @@ class Mission
 			type="rectangle";
 			a=1153.7889;
 			b=636.56897;
-			angle=339.6113;
+			angle=339.61124;
 			id=1212;
 			atlOffset=-24.136;
 		};
@@ -86851,6 +86850,18 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item360
+		{
+			dataType="Marker";
+			position[]={11388.688,0,1509.1331};
+			name="marker_18";
+			text="  FOB RON COLD";
+			type="flag_USA";
+			a=2;
+			b=2;
+			id=5539;
+			atlOffset=70.753883;
 		};
 	};
 	class Connections
