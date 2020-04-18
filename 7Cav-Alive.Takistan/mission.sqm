@@ -5,7 +5,7 @@ class EditorData
 	angleGridStep=0.017453292;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1185;
+	toggles=1057;
 	class ItemIDProvider
 	{
 		nextID=7379;
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=2327;
+		nextID=2368;
 	};
 	class Camera
 	{
 		pos[]={789.70868,610.33441,10409.199};
-		dir[]={0.2740114,-0.57793748,0.76881766};
-		up[]={0.19403547,0.8160584,0.54442269};
-		aside[]={0.94204217,1.0617077e-007,-0.33575326};
+		dir[]={0.62995034,-0.55855966,0.53976846};
+		up[]={0.42417789,0.82944,0.36345395};
+		aside[]={0.65071446,5.3551048e-008,-0.7594381};
 	};
 };
 binarizationWanted=0;
@@ -409,7 +409,7 @@ class AddonsMetaData
 		class Item36
 		{
 			className="A3_Structures_F_Enoch_Military";
-			name="Arma 3 Enoch - Military Buildings and Structures";
+			name="Arma 3 Contact Platform - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -24686,7 +24686,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={773.00061,555.52844,10487.893};
-						angles[]={-0,4.6012802,0};
+						angles[]={0,4.6012802,0};
 					};
 					areaSize[]={8.8894539,0,10.453058};
 					areaIsRectangle=1;
@@ -30506,7 +30506,7 @@ class Mission
 								position[]={8728.7783,222.81456,9718.4434};
 								angles[]={0.16645205,0,6.0400958};
 							};
-							name="opf_comm_mil_central";
+							name="opf_mil_obj";
 							id=6846;
 							type="ALiVE_mil_placement";
 							class CustomAttributes
@@ -30583,7 +30583,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="OPF_CAV_ISIS_F";
+											value="LOP_ISTS_OPF";
 										};
 									};
 								};
@@ -32781,8 +32781,8 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={3003.613,356.68765,-7.0709839};
-								angles[]={6.222002,0,0.084514737};
+								position[]={3003.613,356.68765,-7.0710001};
+								angles[]={6.2219939,0,0.084508844};
 							};
 							id=7151;
 							type="ALiVE_amb_civ_population";
@@ -62251,7 +62251,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={770.41925,558.46637,10483.773};
-						angles[]={-0,3.8571777,0};
+						angles[]={0,3.8571777,0};
 					};
 					side="Empty";
 					class Attributes
@@ -64457,6 +64457,7 @@ class Mission
 					};
 					id=7064;
 					type="rhs_mags_crate";
+					atlOffset=-0.0045166016;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -64496,6 +64497,7 @@ class Mission
 					};
 					id=7065;
 					type="rhs_mags_crate";
+					atlOffset=-0.0040893555;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -64535,6 +64537,7 @@ class Mission
 					};
 					id=7066;
 					type="rhs_mags_crate";
+					atlOffset=-0.0026245117;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -64574,6 +64577,7 @@ class Mission
 					};
 					id=7067;
 					type="rhs_mags_crate";
+					atlOffset=-0.004699707;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -64612,7 +64616,7 @@ class Mission
 					};
 					id=7068;
 					type="rhs_launcher_crate";
-					atlOffset=0.25726318;
+					atlOffset=0.25006104;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -64652,7 +64656,7 @@ class Mission
 					};
 					id=7069;
 					type="rhs_spec_weapons_crate";
-					atlOffset=6.1035156e-005;
+					atlOffset=-0.006652832;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -65875,7 +65879,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={777.11859,558.53552,10484.046};
-						angles[]={-0,5.9864798,0};
+						angles[]={0,5.9864798,0};
 					};
 					side="Empty";
 					flags=4;
@@ -65891,7 +65895,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={792.98987,555.31915,10513.702};
-						angles[]={-0,5.9864798,0};
+						angles[]={0,5.9864798,0};
 					};
 					side="Empty";
 					flags=4;
@@ -65923,7 +65927,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={810.74152,555.52203,10500.254};
-						angles[]={-0,5.9864798,0};
+						angles[]={0,5.9864798,0};
 					};
 					side="Empty";
 					flags=4;
