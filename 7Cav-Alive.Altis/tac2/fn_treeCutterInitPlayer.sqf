@@ -4,7 +4,7 @@ Author: Bojan
 Allows players to "cut down" nearby trees
 */
 
-#define CUTTING_TIME 10
+#define CUTTING_TIME 5
 
 private _cutDownTree = {
 	[
