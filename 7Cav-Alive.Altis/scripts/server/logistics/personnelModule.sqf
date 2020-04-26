@@ -35,6 +35,7 @@ CLIENT_EnemyTriggerStop = { 'FOB enemy presence clear. Manual intervention of FO
 SERVER_DisableMobileSpawn = 
 {
 	params [["_reason", "", [""]]];
+	if (isNil "LOGISTICS_MOBILE_SPAWN") exitWith {};
 
 	[LOGISTICS_MOBILE_SPAWN, '', '', ['personnel_skip_callback'] ] call BOTH_DeactivateModule;
 	missionNamespace setVariable["LOGISTICS_MOBILE_SPAWN", nil, true];
