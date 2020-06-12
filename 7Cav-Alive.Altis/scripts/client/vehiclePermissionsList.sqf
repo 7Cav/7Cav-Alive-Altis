@@ -104,6 +104,12 @@ TypeFilter_ArmoredVehicles =
 	["MBT_01_base_F", true], // Most other western tanks (Abrams, Merkava)
 	["RHS_M2A3*", true], // Add Bradleys here too so Manual Drive works for all
 	["B_AFV_Wheeled_01_cannon_F", true], // Rookiat tank destoryer
+	["B_AFV_Wheeled_01_up_cannon_F", true],
+	["B_APC_Wheeled_01_cannon_F", true],
+	["rhsusf_stryker_m1127_m2_d", true],
+	["rhsusf_stryker_m1134_d", true],
+	["rhsusf_stryker_m1126_m2_d", true],
+	["rhsusf_stryker_m1132_m2_d", true],
 	["All", false]
 ];
 
