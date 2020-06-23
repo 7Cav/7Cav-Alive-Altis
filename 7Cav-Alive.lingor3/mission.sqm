@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=2369;
+		nextID=2463;
 	};
 	class Camera
 	{
-		pos[]={1802.0021,22.932545,9761.9746};
-		dir[]={-0.69148976,-0.59415448,-0.41116279};
-		up[]={-0.51082158,0.80421656,-0.30373988};
-		aside[]={-0.51113909,1.2070814e-006,0.85962886};
+		pos[]={1780.4187,16.933401,9734.0986};
+		dir[]={-0.35221207,-0.29106966,0.88951945};
+		up[]={-0.1071612,0.95669723,0.27063698};
+		aside[]={0.92977542,-3.6379788e-009,0.36815271};
 	};
 };
 binarizationWanted=0;
@@ -58341,11 +58341,11 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={9999.4443,-9.077034,9901.1025};
+								position[]={3242.75,57.3204,7042.25};
+								angles[]={0.1973955,0,0.39932695};
 							};
 							id=2900;
 							type="ALiVE_mil_cqb";
-							atlOffset=8.1929665;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -58458,7 +58458,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="700";
+											value="2000";
 										};
 									};
 								};
@@ -58629,7 +58629,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="800";
+											value="650";
 										};
 									};
 								};
@@ -63213,7 +63213,7 @@ class Mission
 						};
 					};
 					id=5990;
-					atlOffset=13.453693;
+					atlOffset=13.457747;
 				};
 				class Item1
 				{
@@ -70966,6 +70966,7 @@ class Mission
 							};
 							id=7356;
 							type="rhsusf_m113_usarmy_unarmed";
+							atlOffset=-4.7683716e-007;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -71049,20 +71050,22 @@ class Mission
 						};
 					};
 					id=7355;
+					atlOffset=-4.7683716e-007;
 				};
 			};
 			id=7354;
+			atlOffset=-4.7683716e-007;
 		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=14;
+			nextID=16;
 		};
 		class Links
 		{
-			items=14;
+			items=16;
 			class Item0
 			{
 				linkID=0;
@@ -71198,6 +71201,26 @@ class Mission
 				linkID=13;
 				item0=5539;
 				item1=2896;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item14
+			{
+				linkID=14;
+				item0=2900;
+				item1=2908;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item15
+			{
+				linkID=15;
+				item0=2900;
+				item1=2907;
 				class CustomData
 				{
 					type="Sync";
