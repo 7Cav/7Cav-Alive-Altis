@@ -36,7 +36,7 @@ _fortificationStructures = [
     ["Land_BagFence_Long_F", 5],
     ["Land_PortableServer_01_olive_F", 100],
     ["Land_BagBunker_Small_F", 25],
-    ["Land_BagBunker_Large_F", 50],
+    ["CUP_A2_Road_Bridge_wood_25", 20],
     ["Land_Cargo_House_V1_F", 25],
     ["Land_CncWall4_F", 10],
     ["Land_HelipadCircle_F", 25],
