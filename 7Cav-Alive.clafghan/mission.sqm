@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={15455.907,32.882561,912.69739};
-		dir[]={-0.82482183,-0.41103899,-0.38841671};
-		up[]={-0.37190735,0.91159832,-0.17513424};
-		aside[]={-0.42607033,5.8801379e-007,0.90477675};
+		pos[]={4003.5034,2320.5776,5975.6367};
+		dir[]={0.68921548,-0.51124251,-0.51364207};
+		up[]={0.40996906,0.85939509,-0.30553499};
+		aside[]={-0.59762782,-1.6170088e-007,-0.8018986};
 	};
 };
 binarizationWanted=0;
@@ -46473,18 +46473,58 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4016.7747,2307.5847,5967.3477};
-						angles[]={0.049472298,1.8151424,6.1949873};
+						position[]={4016.7749,2307.5845,5967.3477};
+						angles[]={0.049480084,1.8151424,6.1949935};
 					};
 					side="East";
 					flags=6;
 					class Attributes
 					{
-						isPlayer=1;
 					};
 					id=1453;
 					type="LOP_AM_OPF_Infantry_Rifleman";
-					atlOffset=0.00024414063;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male03PER";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 			};
 			class Attributes
