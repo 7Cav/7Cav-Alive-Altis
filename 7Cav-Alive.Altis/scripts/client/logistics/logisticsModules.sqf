@@ -25,7 +25,6 @@ BOTH_ActivateModule =
 	if (_type == "ammo") then { 
 		_crate setVariable ['LOGI_isModuleActivated', true, true]; 
 		[_crate, true] call ace_arsenal_fnc_initBox;
-		sleep 5;
 		[_crate, [
 			"launch_I_Titan_F",
 			"launch_O_Titan_ghex_F",
