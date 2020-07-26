@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.017453292;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=525;
+	toggles=1549;
 	class ItemIDProvider
 	{
-		nextID=7099;
+		nextID=7100;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=5354;
+		nextID=5400;
 	};
 	class Camera
 	{
 		pos[]={6969.0762,47.252716,7273.4282};
-		dir[]={-0.17413113,-0.54023474,-0.82337451};
-		up[]={-0.11178892,0.84148365,-0.52858931};
-		aside[]={-0.97841614,5.1443931e-007,0.20692061};
+		dir[]={-0.84866589,-0.50233299,0.16598192};
+		up[]={-0.49304271,0.86464298,0.096429445};
+		aside[]={0.19195452,5.0550443e-007,0.98146194};
 	};
 };
 binarizationWanted=0;
@@ -6451,7 +6451,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="rhs_Kornet_9M133_2_vdv,rhs_KORD_high_VDV";
+											value="rhs_Kornet_9M133_2_vdv,LOP_TKA_Static_DSHKM";
 										};
 									};
 								};
@@ -64297,14 +64297,14 @@ class Mission
 						class Item0
 						{
 							dataType="Marker";
-							position[]={7266.375,30.875,7577.375};
+							position[]={7012,9.75,7324.125};
 							name="blufor_home";
 							markerType="ELLIPSE";
 							type="ellipse";
-							a=1067.689;
-							b=1116.464;
+							a=1116.7988;
+							b=1128.7076;
 							id=6178;
-							atlOffset=26.981991;
+							atlOffset=7.0900002;
 						};
 						class Item1
 						{
@@ -64332,7 +64332,7 @@ class Mission
 						};
 					};
 					id=1042;
-					atlOffset=5.1478825;
+					atlOffset=-0.12834907;
 				};
 				class Item28
 				{
@@ -64395,7 +64395,7 @@ class Mission
 				};
 			};
 			id=6971;
-			atlOffset=12.817258;
+			atlOffset=13.846395;
 		};
 		class Item13
 		{
